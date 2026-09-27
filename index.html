@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Singh - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Portfolio<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section reveal">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Gaurav Singh</span></h1>
+            <p class="subtitle">MCA Student & Aspiring Software/Data Engineer</p>
+            <p class="description">Passionate about building database-driven applications and analyzing data using Python, SQL, and modern web technologies.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Say Hello 👋</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="profile.png" alt="Gaurav Singh" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am an MCA (Artificial Intelligence & Machine Learning) student with a strong foundation in SQL, Python, data handling, and software development. I have hands-on experience building database-driven applications using Java, MySQL, HTML, CSS, and JavaScript, along with Python-based data analysis.</p>
+                <p>I am keen on developing expertise in modern data engineering, cloud data warehousing, ELT/ETL pipelines, analytics engineering, and BI solutions. Outside of tech, I enjoy playing volleyball and listening to music.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>2+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Passion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section reveal">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Data & Analytics</h3>
+                <p>SQL, Pandas, NumPy, Scikit-learn</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>Python, Java, C++, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Tech</h3>
+                <p>HTML, CSS, JavaScript, jQuery</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Tools & DBs</h3>
+                <p>MySQL, Git, GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section reveal">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-book-open fa-3x"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Library Management System</h3>
+                    <p>Java | MySQL | HTML | CSS | JS<br><br>Developed a database-driven system to manage library resources, automate issue/return workflows, process transactions, and calculate fines.</p>
+                    <a href="https://github.com/gaurav884singh-arch" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-route fa-3x"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Route Recommendation System</h3>
+                    <p>C++<br><br>A route planning application using graph-based algorithms (DFS) to determine efficient travel routes. Built a console-based interface for processing route info.</p>
+                    <a href="https://github.com/gaurav884singh-arch" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section reveal">
+        <h2 class="section-title">Education & Training</h2>
+        <div class="education-container">
+            <div class="edu-card">
+                <h3>Master of Computer Applications (MCA) - AI & ML</h3>
+                <p class="edu-school">Chandigarh University</p>
+                <p class="edu-year">2025 - 2027</p>
+            </div>
+            <div class="edu-card">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p class="edu-school">Govt. College Chhachhrauli, Kurukshetra University</p>
+                <p class="edu-year">2022 - 2025</p>
+            </div>
+            <div class="edu-card">
+                <h3>Certifications</h3>
+                <p class="edu-school">Artificial Intelligence (SmartEd) | Advanced Java & Web Tech (Hartron)</p>
+                <p class="edu-year">2024 - 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section reveal">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-container" style="justify-content: center; text-align: center;">
+            <div class="contact-info" style="flex: none; max-width: 600px;">
+                <h3>Get In Touch!</h3>
+                <p>I'm currently looking for new opportunities and collaborations. Feel free to connect with me through my profiles or drop an email.</p>
+                <div class="social-links" style="justify-content: center; gap: 30px; margin-top: 40px;">
+                    <a href="https://github.com/gaurav884singh-arch" class="social-icon" title="GitHub" style="width: 70px; height: 70px; font-size: 2.2rem;" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/gaurav-singh-593921373" class="social-icon" title="LinkedIn" style="width: 70px; height: 70px; font-size: 2.2rem;" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:gaurav884singh@gmail.com" class="social-icon" title="Email" style="width: 70px; height: 70px; font-size: 2.2rem;"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Gaurav. Built with 💖 and Code.</p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
